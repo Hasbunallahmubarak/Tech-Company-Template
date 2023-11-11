@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tech company</title>
+	<meta charset="utf-8"/>
+	<meta name="description" content="This template is one of the works of Hmabiola. Template Design was sourced from W3shools (link in footer). All stages of developement and languages used (HTML,CSS,JavaScript) all emanate from Hmabiola.">
+	<meta name="keywords" content="Hmabiola works, Hmabiola, Hasbunallah Mubarak Abiola works"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="Tech company.css"/>
+	<link rel="stylesheet" type="text/css" href="Tech company media.css"/>
+</head>
+<body>
+	<header class="bg">
+		<div>
+			<h1>Start something that matters</h1>
+			<p>Stop wasting valuable time with projects that just isn't you.</p>
+			<a href="#about">Learn More and start today</a>
+		</div>
+		<span>
+			 <i class="fa fa-facebook-official"></i>
+			  <i class="fa fa-instagram"></i>
+			  <i class="fa fa-whatsapp"></i>
+			  <i class="fa fa-pinterest-p"></i>
+			  <i class="fa fa-twitter"></i>
+			  <i class="fa fa-linkedin"></i>
+		</span>
+	</header>
+	<div class="nav">
+		<a href="#">Logo</a>
+		<span>
+		<a href="#about">About</a>
+		<a href="#team" class="fa fa-user"> Team</a>
+		<a href="#work" class="fa fa-th"> Work</a>
+		<a href="#pricing" class="fa fa-dollar"> Pricing</a>
+		<a href="#contact" class="fa fa-envelope"> Contact</a>	
+		</span>
+		<span id="side-bar" onclick="openS()">&#9776;</span>
+	</div>
+	<div id="side-nav">
+		<a href="javascript:void(0)" onclick="closeS()">Close <i>&times;</i></a>
+		<a href="#about" onclick="closeS()">About</a>
+		<a href="#team" onclick="closeS()">Team</a>
+		<a href="#work" onclick="closeS()">Work</a>
+		<a href="#pricing" onclick="closeS()">Pricing</a>
+		<a href="#contact" onclick="closeS()">Contact</a>
+	</div>
+	<section id="about">
+		<h1>About The Company</h1><h3>Key Features of our company</h3>
+		<div class="key">
+			<div>
+				<i class="fa fa-desktop"></i>
+				<h3>Responsive</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+			</div>
+			<div>
+				<i class="fa fa-heart"></i>
+				<h3>Passion</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+			</div>
+			<div>
+				<i class="fa fa-diamond"></i>
+				<h3>Design</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+			</div>
+			<div>
+				<i class="fa fa-cog"></i>
+				<h3>Support</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+			</div>
+		</div>
+		<div class="know">
+			<div>
+				<h2>We Know Design.</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+				<a href="#work" class="fa fa-th"> View Our Works</a>
+			</div>
+			<div>
+				<img src="images/phone_buildings.jpg" alt="Our building"/>
+			</div>
+		</div>
+	</section>
+	<section id="team">
+		<h1>The team</h1><h3>The ones who runs this company</h3>
+		<div class="team">
+			<div>
+				<img src="architect/team2.jpg"/>
+				<div>
+					<h2>John Doe</h2><h5>CEO &amp; Founder</h5>
+					<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+					<button type="button"><i class="fa fa-envelope"></i> Contact</button>
+				</div>
+			</div>
+			<div>
+				<img src="architect/team1.jpg"/>
+				<div>
+					<h2>Anja Doe</h2><h5>Art Director</h5>
+					<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+					<button type="button"><i class="fa fa-envelope"></i> Contact</button>
+				</div>
+			</div>
+			<div>
+				<img src="architect/team3.jpg"/>
+				<div>
+					<h2>Mike Ross</h2><h5>Web Designer</h5>
+					<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+					<button type="button"><i class="fa fa-envelope"></i> Contact</button>
+				</div>
+			</div>
+			<div>
+				<img src="architect/team4.jpg"/>
+				<div>
+					<h2>Dan Star</h2><h5>Designer</h5>
+					<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+					<button type="button"><i class="fa fa-envelope"></i> Contact</button>
+				</div>
+			</div>	
+		</div>
+		<div class="done">
+			<div><h1>14+</h1><h4>Partners</h4></div>
+			<div><h1>55+</h1><h4>Projects Done</h4></div>
+			<div><h1>81+</h1><h4>Happy Clients</h4></div>
+			<div><h1>150+</h1><h4>Meetings</h4></div>
+		</div>	
+	</section>
+	<section id="work">
+		<h1>Our work</h1><h3>What we've done for people</h3>
+		<div class="tech">
+			<img src="images/tech_mic.jpg" alt="A Microphone" onclick="onClick(this)"/>
+			<img src="images/tech_phone.jpg" alt="A Phone" onclick="onClick(this)"/>
+			<img src="images/tech_drone.jpg" alt="A Drone" onclick="onClick(this)"/>
+			<img src="images/tech_sound.jpg" alt="A Sound box" onclick="onClick(this)"/>
+			<img src="images/tech_tablet.jpg" alt="A Tablet" onclick="onClick(this)"/>
+			<img src="images/tech_camera.jpg" alt="A Camera" onclick="onClick(this)"/>
+			<img src="images/tech_typewriter.jpg" alt="A Typewriter" onclick="onClick(this)"/>
+			<img src="images/tech_tableturner.jpg" alt="A Tabletturner" onclick="onClick(this)"/>
+		</div>
+		<div class="skill">
+			<div class="first">
+				<h2>Our Skills.</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+			</div>
+			<div class="last">
+				<h4><i class="fa fa-camera"></i> Photography</h4>
+				<div class="per"><span>90%</span></div>
+				<h4><i class="fa fa-desktop"></i> Web Design</h4>
+				<div class="perc"><span>85%</span></div>
+				<h4><i class="fa fa-photo"></i> Photoshop</h4>
+				<div class="perce"><span>75%</span></div>
+			</div>
+		</div>
+	</section>
+	<section id="pricing">
+		<h1>pricing</h1><h3>choose a pricing plan that fits your needs.</h3>
+		<div>
+			<h1>Basic</h1>
+			<p><b>10GB &nbsp;</b>Storage</p>
+			<p><b>10 &nbsp;</b>Emails</p>
+			<p><b>10 &nbsp;</b>Domains</p>
+			<p><b>10 &nbsp;</b>Support</p>
+			<p class="special"><b>$&nbsp;10</b>per month</p>
+			<span><button type="button">sign up</button></span>
+		</div>
+		<div class="middle">
+			<h1>Pro</h1>
+			<p><b>25GB &nbsp;</b>Storage</p>
+			<p><b>25 &nbsp;</b>Emails</p>
+			<p><b>25 &nbsp;</b>Domains</p>
+			<p><b>25 &nbsp;</b>Support</p>
+			<p class="special"><b>$&nbsp;25</b>per month</p>
+			<span><button type="button">sign up</button></span>
+		</div>
+		<div>
+			<h1>Premium</h1>
+			<p><b>50GB&nbsp; </b>Storage</p>
+			<p><b>50 &nbsp;</b> Emails</p>
+			<p><b>50 &nbsp;</b>Domains</p>
+			<p><b>50 &nbsp;</b>Support</p>
+			<p class="special"><b>$&nbsp;50</b>per month</p>
+			<span><button type="button">sign up</button></span>
+		</div>
+	</section>
+	<section id="contact">
+		<h1>Contact</h1><h3>Lets get in touch. Send us a message:</h3>
+		<h4><i class="fa fa-map-marker"></i> Lacoste, Lagos.</h4>
+		<h4><i class="fa fa-phone"></i> Phone:&nbsp;+2348127892388</h4>
+		<h4><i class="fa fa-envelope"></i> Email:&nbsp;<a href="mailto:hasbunallahmubarak@gmail.com">Techcompany.gmail.com</a></h4>
+		<form action="#" method="get">
+			<input type="text" placeholder="Name" name="name" required="required"/>
+			<input type="email" placeholder="Email" name="email" required="required"/>
+			<input type="text" placeholder="Subject" name="Subject" required="required"/>
+			<input type="message" placeholder="Message" name="message" required="required"/>
+			<input type="submit" name="submit" value="SEND MESSAGE">
+		</form>
+		<img src="architect/map.jpg" alt="map"/>
+	</section>
+	<div id="modal">
+		<span onclick="closeM()">&times;</span>
+		<div>
+			<img id="img">
+			<h3 id="text"></h3>
+		</div>
+	</div>
+	<footer><a href="#" class="fa fa-arrow-up to_Top "> To The Top</a><div>Developed by <a href="https://hasbunallahmubarak.github.io/Hmabiola-Portfolio/#"> Hmabiola </a>&nbsp;|&nbsp;Template From <a href="https://www.w3schools.com/w3css/tryw3css_templates_startup.html" target="_blank"> W3shools</a></div></footer>
+	<script>
+		function openS() {
+			document.getElementById('side-nav').style.display = "block";
+		}
+		function closeS(){
+			document.getElementById('side-nav').style.display = "none";
+		}
+		function onClick(element) {
+			document.getElementById('modal').style.display = "block";
+			document.getElementById('img').src = element.src;
+			document.getElementById('text').innerHTML = element.alt;
+		}
+		function closeM() {
+			document.getElementById('modal').style.display = "none";
+		}
+	</script>
+</body>
+</html>

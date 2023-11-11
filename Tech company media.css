@@ -1,0 +1,31 @@
+@media screen and (max-width: 950px){
+	.team > div{width: 49%;margin-top: 20px;}
+}
+@media screen and (max-width: 600px){
+	.nav span{display: none;}
+	.bg > div, .bg span{left: 10px;}
+	.bg div > h1{font-size: 7vw;}
+	div.key > div{width: 100%;}
+	#work img{width: 50%;}
+	div.nav{padding: 5px;}
+	.team > div{width: 99%;}
+	div.know > div{width: 100%;padding: 50px 10px;}
+	div.done > div{width: 50%;}
+	div.skill{padding: 50px 5px;}
+	.skill div.first,.skill div.last{width: 100%;}
+	#pricing div{width: 99%;}
+	span#side-bar{display: inline;font-size: 20px;
+	padding: 10px;cursor: pointer;}
+	#side-nav{display: none; width: 200px;position: fixed;
+	top: 0px;left: 0px;height: 100%; z-index: 2;
+	background-color: #000;color: #fff; 
+	transition: 0.5s;animation: animate 0.5s;}
+	#side-nav a{display: block;}
+	#contact{padding: 70px 10px;}
+@keyframes animate{
+	from{left: -200px;}to{left: 0px;}
+}
+@media screen and (max-width: 500px){
+	#work img{width: 100%;}
+	div.done > div{width: 100%;}
+}
